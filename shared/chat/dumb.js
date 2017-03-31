@@ -413,10 +413,8 @@ const conversationBanner = {
   component: ConversationBanner,
   mocks: {
     'Info': {
-      message: {
-        type: 'Info',
-        text: 'Some info',
-      },
+      type: 'Info',
+      text: 'Some info',
     },
     'Invite': {
       message: {
